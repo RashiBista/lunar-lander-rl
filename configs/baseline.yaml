@@ -4,8 +4,8 @@ total_timesteps: 1000000
 seeed: 42
 wrapper: null
 ppo:
-  learning_rate: 0.0003
-  n_steps: 2048
+  learning_rate: 0.00025
+  n_steps: 1048
   batch_size: 64
   gamma: 0.999
   ent_coef: 0.01
