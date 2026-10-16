@@ -1,0 +1,15 @@
+name:hover
+env_id:lunar-lander-v3
+total_timesteps:1000000
+seed:42
+wrapper:hover
+wrapper_kwargs:
+  bonus:1.0
+ppo:
+  learning_rate:0.0003
+  n_steps:2048
+  batch_size:64
+  gamma:0.999
+  ent_coef:0.01
+  n_epoches:10
+  gae_lambda:0.98  
