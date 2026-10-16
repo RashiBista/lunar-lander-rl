@@ -1,0 +1,15 @@
+name: time_penalty
+env_id: lunar-lander-v3
+total_timesteps: 1000000
+seed: 42
+wrapper: time_penalty
+wrapper_kwargs:
+  penalty: -0.01
+ppo:
+  learning_rate: 0.0003
+  n_steps: 2048
+  batch_size: 64
+  gamma: 0.999
+  ent_coef: 0.01
+  n_epoches: 10
+  gae_lambda: 0.98  
