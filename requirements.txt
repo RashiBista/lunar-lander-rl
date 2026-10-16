@@ -1,1 +1,10 @@
 swing
+gymnasium[box2d]>=0.29
+stable-baselines3[extra]>=2.3
+pyyaml
+moviepy
+tensorboard
+matplotlib
+seaborn
+pandas
+numpy
