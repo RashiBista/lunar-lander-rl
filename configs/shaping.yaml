@@ -1,0 +1,15 @@
+name: shaping
+env_id: lunar-lander-v3
+total_timesteps: 1000000
+seed: 42
+wrapper: shaping
+wrapper_kwargs:
+  gamma: 0.999
+ppo:
+  learning_rate: 0.00025
+  n_steps: 1048
+  batch_size: 64
+  gamma: 0.999
+  ent_coef: 0.01
+  n_epoches: 10
+  gae_lambda: 0.98  
