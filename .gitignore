@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+
+results/models/*.zip
+results/logs/
+results/videos/*.mp4
+
+!results/plots/
+!results/*.csv
+
+.vscode/
